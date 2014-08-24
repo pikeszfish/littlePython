@@ -6,11 +6,10 @@ import getopt;
 def usage():
     print("Usage:%s [-a|-o|-c] [--help|--output] args...." %sys.argv[0]);
 
-
 if "__main__" == __name__:
     #lsArgs = [""];
     try:
-        opts,args = getopt.getopt(sys.argv[1:], "ao:c", ["help", "output="]);
+        opts,args = getopt.getopt(sys.argv[1:], "ao:ch", ["help", "output="]);
         print("============ opts ==================");
         print(opts);
         print("============ args ==================");

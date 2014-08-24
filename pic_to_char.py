@@ -1,6 +1,5 @@
 from PIL import Image 
 
-
 color = 'MNHQ$OC?7>!:-;.'
  
 def to_html(func):
@@ -52,7 +51,7 @@ def save_to_file(filename, pic_str):
     outfile.close()
  
 def main():
-    img = preprocess('37-2.jpg')
+    img = preprocess('ttt.png')
     pic_str = make_char_img(img)
     save_to_file('char.html', pic_str)
  
