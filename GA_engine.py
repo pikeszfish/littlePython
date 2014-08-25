@@ -218,7 +218,6 @@ def main():
     a = 0
     for i in xrange(0, select_num):
         a = a + 1
-        
         print len(generation[0]["gene"])
         time0 = time.time()
         do_it(generation, generation_num, gene_num, size, to_pic_rate)
