@@ -14,7 +14,7 @@ class Solution:
             return result
         self.do(root, result)
         return result
-        
+
     def do(self, node, result):
         result.append(node.val)
         if node.left:
@@ -22,4 +22,3 @@ class Solution:
         if node.right:
             self.do(node.right, result)
         return
-        

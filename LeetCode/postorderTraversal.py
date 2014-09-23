@@ -12,10 +12,10 @@ class Solution:
         result = []
         if not root:
             return result
-        
+
         self.do(root, result)
         return result
-        
+
     def do(self, node, result):
         if node.left:
             self.do(node.left, result)
